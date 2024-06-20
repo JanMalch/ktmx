@@ -1,0 +1,15 @@
+*.iml
+.gradle
+.idea
+.DS_Store
+build
+captures
+.externalNativeBuild
+.cxx
+local.properties
+xcuserdata
+.kotlin
+
+# secret local workaround, while I'm struggling with the plugin :')
+.deploy
+deploy.sh

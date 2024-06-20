@@ -1,0 +1,456 @@
+public final class io/github/janmalch/ktmx/core/Css {
+	public static final field INSTANCE Lio/github/janmalch/ktmx/core/Css;
+	public static final field body Ljava/lang/String;
+	public static final field document Ljava/lang/String;
+	public static final field next Ljava/lang/String;
+	public static final field previous Ljava/lang/String;
+	public static final field window Ljava/lang/String;
+	public final fun closest (Ljava/lang/String;)Ljava/lang/String;
+	public final fun find (Ljava/lang/String;)Ljava/lang/String;
+	public final fun next (Ljava/lang/String;)Ljava/lang/String;
+	public final fun previous (Ljava/lang/String;)Ljava/lang/String;
+}
+
+public final class io/github/janmalch/ktmx/core/HtmxConfig {
+	public static final field Companion Lio/github/janmalch/ktmx/core/HtmxConfig$Companion;
+	public synthetic fun <init> (Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Boolean;Lio/github/janmalch/ktmx/core/HxSwap;Lkotlin/time/Duration;Lkotlin/time/Duration;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/util/Collection;Ljava/lang/String;Lio/github/janmalch/ktmx/core/WsBinaryType;Ljava/util/List;Ljava/lang/Boolean;Lkotlin/time/Duration;Lio/github/janmalch/ktmx/core/HxScrollBehaviour;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/Collection;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Boolean;Ljava/util/Collection;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Boolean;Lio/github/janmalch/ktmx/core/HxSwap;Lkotlin/time/Duration;Lkotlin/time/Duration;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/util/Collection;Ljava/lang/String;Lio/github/janmalch/ktmx/core/WsBinaryType;Ljava/util/List;Ljava/lang/Boolean;Lkotlin/time/Duration;Lio/github/janmalch/ktmx/core/HxScrollBehaviour;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/Collection;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Boolean;Ljava/util/Collection;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/Boolean;
+	public final fun component10 ()Ljava/lang/String;
+	public final fun component11 ()Ljava/lang/String;
+	public final fun component12 ()Ljava/lang/String;
+	public final fun component13 ()Ljava/lang/Boolean;
+	public final fun component14 ()Ljava/lang/Boolean;
+	public final fun component15 ()Ljava/lang/String;
+	public final fun component16 ()Ljava/util/Collection;
+	public final fun component17 ()Ljava/lang/String;
+	public final fun component18 ()Lio/github/janmalch/ktmx/core/WsBinaryType;
+	public final fun component19 ()Ljava/util/List;
+	public final fun component2 ()Ljava/lang/Integer;
+	public final fun component20 ()Ljava/lang/Boolean;
+	public final fun component21-FghU774 ()Lkotlin/time/Duration;
+	public final fun component22 ()Lio/github/janmalch/ktmx/core/HxScrollBehaviour;
+	public final fun component23 ()Ljava/lang/Boolean;
+	public final fun component24 ()Ljava/lang/Boolean;
+	public final fun component25 ()Ljava/lang/Boolean;
+	public final fun component26 ()Ljava/util/Collection;
+	public final fun component27 ()Ljava/lang/Boolean;
+	public final fun component28 ()Ljava/lang/Boolean;
+	public final fun component29 ()Ljava/lang/Boolean;
+	public final fun component3 ()Ljava/lang/Boolean;
+	public final fun component30 ()Ljava/lang/String;
+	public final fun component31 ()Ljava/lang/Boolean;
+	public final fun component32 ()Ljava/util/Collection;
+	public final fun component4 ()Lio/github/janmalch/ktmx/core/HxSwap;
+	public final fun component5-FghU774 ()Lkotlin/time/Duration;
+	public final fun component6-FghU774 ()Lkotlin/time/Duration;
+	public final fun component7 ()Ljava/lang/Boolean;
+	public final fun component8 ()Ljava/lang/String;
+	public final fun component9 ()Ljava/lang/String;
+	public final fun copy-O_BGYKw (Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Boolean;Lio/github/janmalch/ktmx/core/HxSwap;Lkotlin/time/Duration;Lkotlin/time/Duration;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/util/Collection;Ljava/lang/String;Lio/github/janmalch/ktmx/core/WsBinaryType;Ljava/util/List;Ljava/lang/Boolean;Lkotlin/time/Duration;Lio/github/janmalch/ktmx/core/HxScrollBehaviour;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/Collection;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Boolean;Ljava/util/Collection;)Lio/github/janmalch/ktmx/core/HtmxConfig;
+	public static synthetic fun copy-O_BGYKw$default (Lio/github/janmalch/ktmx/core/HtmxConfig;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Boolean;Lio/github/janmalch/ktmx/core/HxSwap;Lkotlin/time/Duration;Lkotlin/time/Duration;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/util/Collection;Ljava/lang/String;Lio/github/janmalch/ktmx/core/WsBinaryType;Ljava/util/List;Ljava/lang/Boolean;Lkotlin/time/Duration;Lio/github/janmalch/ktmx/core/HxScrollBehaviour;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/Collection;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Boolean;Ljava/util/Collection;ILjava/lang/Object;)Lio/github/janmalch/ktmx/core/HtmxConfig;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAddedClass ()Ljava/lang/String;
+	public final fun getAllowEval ()Ljava/lang/Boolean;
+	public final fun getAllowNestedOobSwaps ()Ljava/lang/Boolean;
+	public final fun getAllowScriptTags ()Ljava/lang/Boolean;
+	public final fun getAttributesToSettle ()Ljava/util/Collection;
+	public final fun getDefaultFocusScroll ()Ljava/lang/Boolean;
+	public final fun getDefaultSettleDelay-FghU774 ()Lkotlin/time/Duration;
+	public final fun getDefaultSwapDelay-FghU774 ()Lkotlin/time/Duration;
+	public final fun getDefaultSwapStyle ()Lio/github/janmalch/ktmx/core/HxSwap;
+	public final fun getDisableSelector ()Ljava/util/List;
+	public final fun getGetCacheBusterParam ()Ljava/lang/Boolean;
+	public final fun getGlobalViewTransitions ()Ljava/lang/Boolean;
+	public final fun getHistoryCacheSize ()Ljava/lang/Integer;
+	public final fun getHistoryEnabled ()Ljava/lang/Boolean;
+	public final fun getIgnoreTitle ()Ljava/lang/Boolean;
+	public final fun getIncludeIndicatorStyles ()Ljava/lang/Boolean;
+	public final fun getIndicatorClass ()Ljava/lang/String;
+	public final fun getInlineScriptNonce ()Ljava/lang/String;
+	public final fun getMethodsThatUseUrlParams ()Ljava/util/Collection;
+	public final fun getRefreshOnHistoryMiss ()Ljava/lang/Boolean;
+	public final fun getRequestClass ()Ljava/lang/String;
+	public final fun getResponseHandling ()Ljava/util/Collection;
+	public final fun getScrollBehavior ()Lio/github/janmalch/ktmx/core/HxScrollBehaviour;
+	public final fun getScrollIntoViewOnBoost ()Ljava/lang/Boolean;
+	public final fun getSelfRequestsOnly ()Ljava/lang/Boolean;
+	public final fun getSettlingClass ()Ljava/lang/String;
+	public final fun getSwappingClass ()Ljava/lang/String;
+	public final fun getTimeout-FghU774 ()Lkotlin/time/Duration;
+	public final fun getTriggerSpecsCache ()Ljava/lang/String;
+	public final fun getWithCredentials ()Ljava/lang/Boolean;
+	public final fun getWsBinaryType ()Lio/github/janmalch/ktmx/core/WsBinaryType;
+	public final fun getWsReconnectDelay ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public synthetic class io/github/janmalch/ktmx/core/HtmxConfig$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lio/github/janmalch/ktmx/core/HtmxConfig$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lio/github/janmalch/ktmx/core/HtmxConfig;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lio/github/janmalch/ktmx/core/HtmxConfig;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class io/github/janmalch/ktmx/core/HtmxConfig$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class io/github/janmalch/ktmx/core/HtmxConfig$ResponseHandling {
+	public static final field Companion Lio/github/janmalch/ktmx/core/HtmxConfig$ResponseHandling$Companion;
+	public fun <init> (Ljava/lang/String;ZLjava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	public synthetic fun <init> (Ljava/lang/String;ZLjava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Z
+	public final fun component3 ()Ljava/lang/Boolean;
+	public final fun component4 ()Ljava/lang/Boolean;
+	public final fun component5 ()Ljava/lang/String;
+	public final fun component6 ()Ljava/lang/String;
+	public final fun component7 ()Ljava/lang/String;
+	public final fun component8 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;ZLjava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lio/github/janmalch/ktmx/core/HtmxConfig$ResponseHandling;
+	public static synthetic fun copy$default (Lio/github/janmalch/ktmx/core/HtmxConfig$ResponseHandling;Ljava/lang/String;ZLjava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lio/github/janmalch/ktmx/core/HtmxConfig$ResponseHandling;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getCode ()Ljava/lang/String;
+	public final fun getError ()Ljava/lang/Boolean;
+	public final fun getEvent ()Ljava/lang/String;
+	public final fun getIgnoreTitle ()Ljava/lang/Boolean;
+	public final fun getSelect ()Ljava/lang/String;
+	public final fun getSwap ()Z
+	public final fun getSwapOverride ()Ljava/lang/String;
+	public final fun getTarget ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public synthetic class io/github/janmalch/ktmx/core/HtmxConfig$ResponseHandling$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lio/github/janmalch/ktmx/core/HtmxConfig$ResponseHandling$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lio/github/janmalch/ktmx/core/HtmxConfig$ResponseHandling;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lio/github/janmalch/ktmx/core/HtmxConfig$ResponseHandling;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class io/github/janmalch/ktmx/core/HtmxConfig$ResponseHandling$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class io/github/janmalch/ktmx/core/HtmxRequest {
+	public static final field Companion Lio/github/janmalch/ktmx/core/HtmxRequest$Companion;
+	public synthetic fun <init> (Lkotlin/time/Duration;Ljava/lang/Boolean;Ljava/lang/Boolean;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (Lkotlin/time/Duration;Ljava/lang/Boolean;Ljava/lang/Boolean;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-FghU774 ()Lkotlin/time/Duration;
+	public final fun component2 ()Ljava/lang/Boolean;
+	public final fun component3 ()Ljava/lang/Boolean;
+	public final fun copy-k1IrOU0 (Lkotlin/time/Duration;Ljava/lang/Boolean;Ljava/lang/Boolean;)Lio/github/janmalch/ktmx/core/HtmxRequest;
+	public static synthetic fun copy-k1IrOU0$default (Lio/github/janmalch/ktmx/core/HtmxRequest;Lkotlin/time/Duration;Ljava/lang/Boolean;Ljava/lang/Boolean;ILjava/lang/Object;)Lio/github/janmalch/ktmx/core/HtmxRequest;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getCredentials ()Ljava/lang/Boolean;
+	public final fun getNoHeaders ()Ljava/lang/Boolean;
+	public final fun getTimeout-FghU774 ()Lkotlin/time/Duration;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public synthetic class io/github/janmalch/ktmx/core/HtmxRequest$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lio/github/janmalch/ktmx/core/HtmxRequest$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lio/github/janmalch/ktmx/core/HtmxRequest;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lio/github/janmalch/ktmx/core/HtmxRequest;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class io/github/janmalch/ktmx/core/HtmxRequest$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class io/github/janmalch/ktmx/core/HttpVerb : java/lang/Enum {
+	public static final field Companion Lio/github/janmalch/ktmx/core/HttpVerb$Companion;
+	public static final field Connect Lio/github/janmalch/ktmx/core/HttpVerb;
+	public static final field Delete Lio/github/janmalch/ktmx/core/HttpVerb;
+	public static final field Get Lio/github/janmalch/ktmx/core/HttpVerb;
+	public static final field Head Lio/github/janmalch/ktmx/core/HttpVerb;
+	public static final field Options Lio/github/janmalch/ktmx/core/HttpVerb;
+	public static final field Patch Lio/github/janmalch/ktmx/core/HttpVerb;
+	public static final field Post Lio/github/janmalch/ktmx/core/HttpVerb;
+	public static final field Put Lio/github/janmalch/ktmx/core/HttpVerb;
+	public static final field Trace Lio/github/janmalch/ktmx/core/HttpVerb;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun getValue ()Ljava/lang/String;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/janmalch/ktmx/core/HttpVerb;
+	public static fun values ()[Lio/github/janmalch/ktmx/core/HttpVerb;
+}
+
+public final class io/github/janmalch/ktmx/core/HttpVerb$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class io/github/janmalch/ktmx/core/Hx {
+	public static final field INSTANCE Lio/github/janmalch/ktmx/core/Hx;
+	public static final field boost Ljava/lang/String;
+	public static final field confirm Ljava/lang/String;
+	public static final field delete Ljava/lang/String;
+	public static final field disable Ljava/lang/String;
+	public static final field disabledElt Ljava/lang/String;
+	public static final field disinherit Ljava/lang/String;
+	public static final field encoding Ljava/lang/String;
+	public static final field ext Ljava/lang/String;
+	public static final field get Ljava/lang/String;
+	public static final field headers Ljava/lang/String;
+	public static final field history Ljava/lang/String;
+	public static final field historyElt Ljava/lang/String;
+	public static final field include Ljava/lang/String;
+	public static final field indicator Ljava/lang/String;
+	public static final field inherit Ljava/lang/String;
+	public static final field params Ljava/lang/String;
+	public static final field patch Ljava/lang/String;
+	public static final field post Ljava/lang/String;
+	public static final field preserve Ljava/lang/String;
+	public static final field prompt Ljava/lang/String;
+	public static final field pushUrl Ljava/lang/String;
+	public static final field put Ljava/lang/String;
+	public static final field replaceUrl Ljava/lang/String;
+	public static final field request Ljava/lang/String;
+	public static final field select Ljava/lang/String;
+	public static final field selectOob Ljava/lang/String;
+	public static final field swap Ljava/lang/String;
+	public static final field swapOob Ljava/lang/String;
+	public static final field sync Ljava/lang/String;
+	public static final field target Ljava/lang/String;
+	public static final field trigger Ljava/lang/String;
+	public static final field validate Ljava/lang/String;
+	public static final field vals Ljava/lang/String;
+	public final fun on (Ljava/lang/String;)Ljava/lang/String;
+}
+
+public final class io/github/janmalch/ktmx/core/HxClass {
+	public static final field INSTANCE Lio/github/janmalch/ktmx/core/HxClass;
+	public static final field added Ljava/lang/String;
+	public static final field indicator Ljava/lang/String;
+	public static final field request Ljava/lang/String;
+	public static final field settling Ljava/lang/String;
+	public static final field swapping Ljava/lang/String;
+}
+
+public final class io/github/janmalch/ktmx/core/HxEvent {
+	public static final field INSTANCE Lio/github/janmalch/ktmx/core/HxEvent;
+	public static final field abort Ljava/lang/String;
+	public static final field afterOnLoad Ljava/lang/String;
+	public static final field afterProcessNode Ljava/lang/String;
+	public static final field afterRequest Ljava/lang/String;
+	public static final field afterSettle Ljava/lang/String;
+	public static final field afterSwap Ljava/lang/String;
+	public static final field beforeCleanupElement Ljava/lang/String;
+	public static final field beforeHistorySave Ljava/lang/String;
+	public static final field beforeOnLoad Ljava/lang/String;
+	public static final field beforeProcessNode Ljava/lang/String;
+	public static final field beforeRequest Ljava/lang/String;
+	public static final field beforeSend Ljava/lang/String;
+	public static final field beforeSwap Ljava/lang/String;
+	public static final field configRequest Ljava/lang/String;
+	public static final field confirm Ljava/lang/String;
+	public static final field historyCacheError Ljava/lang/String;
+	public static final field historyCacheMiss Ljava/lang/String;
+	public static final field historyCacheMissError Ljava/lang/String;
+	public static final field historyCacheMissLoad Ljava/lang/String;
+	public static final field historyRestore Ljava/lang/String;
+	public static final field load Ljava/lang/String;
+	public static final field noSSESourceError Ljava/lang/String;
+	public static final field onLoadError Ljava/lang/String;
+	public static final field oobAfterSwap Ljava/lang/String;
+	public static final field oobBeforeSwap Ljava/lang/String;
+	public static final field oobErrorNoTarget Ljava/lang/String;
+	public static final field prompt Ljava/lang/String;
+	public static final field pushedIntoHistory Ljava/lang/String;
+	public static final field responseError Ljava/lang/String;
+	public static final field sendError Ljava/lang/String;
+	public static final field sseError Ljava/lang/String;
+	public static final field sseOpen Ljava/lang/String;
+	public static final field swapError Ljava/lang/String;
+	public static final field targetError Ljava/lang/String;
+	public static final field timeout Ljava/lang/String;
+	public static final field validationFailed Ljava/lang/String;
+	public static final field validationHalted Ljava/lang/String;
+	public static final field validationValidate Ljava/lang/String;
+	public static final field xhrAbort Ljava/lang/String;
+	public static final field xhrLoadend Ljava/lang/String;
+	public static final field xhrLoadstart Ljava/lang/String;
+	public static final field xhrProgress Ljava/lang/String;
+}
+
+public final class io/github/janmalch/ktmx/core/HxHeader {
+	public static final field INSTANCE Lio/github/janmalch/ktmx/core/HxHeader;
+}
+
+public final class io/github/janmalch/ktmx/core/HxHeader$Req {
+	public static final field INSTANCE Lio/github/janmalch/ktmx/core/HxHeader$Req;
+	public static final field boosted Ljava/lang/String;
+	public static final field currentUrl Ljava/lang/String;
+	public static final field historyRestoreRequest Ljava/lang/String;
+	public static final field prompt Ljava/lang/String;
+	public static final field request Ljava/lang/String;
+	public static final field target Ljava/lang/String;
+	public static final field trigger Ljava/lang/String;
+	public static final field triggerName Ljava/lang/String;
+}
+
+public final class io/github/janmalch/ktmx/core/HxHeader$Res {
+	public static final field INSTANCE Lio/github/janmalch/ktmx/core/HxHeader$Res;
+	public static final field location Ljava/lang/String;
+	public static final field pushUrl Ljava/lang/String;
+	public static final field redirect Ljava/lang/String;
+	public static final field refresh Ljava/lang/String;
+	public static final field replaceUrl Ljava/lang/String;
+	public static final field reselect Ljava/lang/String;
+	public static final field reswap Ljava/lang/String;
+	public static final field retarget Ljava/lang/String;
+	public static final field trigger Ljava/lang/String;
+	public static final field triggerAfterSettle Ljava/lang/String;
+	public static final field triggerAfterSwap Ljava/lang/String;
+}
+
+public final class io/github/janmalch/ktmx/core/HxScrollBehaviour : java/lang/Enum {
+	public static final field Auto Lio/github/janmalch/ktmx/core/HxScrollBehaviour;
+	public static final field Companion Lio/github/janmalch/ktmx/core/HxScrollBehaviour$Companion;
+	public static final field Instant Lio/github/janmalch/ktmx/core/HxScrollBehaviour;
+	public static final field Smooth Lio/github/janmalch/ktmx/core/HxScrollBehaviour;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun getValue ()Ljava/lang/String;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/janmalch/ktmx/core/HxScrollBehaviour;
+	public static fun values ()[Lio/github/janmalch/ktmx/core/HxScrollBehaviour;
+}
+
+public final class io/github/janmalch/ktmx/core/HxScrollBehaviour$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class io/github/janmalch/ktmx/core/HxSwap : java/lang/Enum {
+	public static final field AfterBegin Lio/github/janmalch/ktmx/core/HxSwap;
+	public static final field AfterEnd Lio/github/janmalch/ktmx/core/HxSwap;
+	public static final field BeforeBegin Lio/github/janmalch/ktmx/core/HxSwap;
+	public static final field BeforeEnd Lio/github/janmalch/ktmx/core/HxSwap;
+	public static final field Companion Lio/github/janmalch/ktmx/core/HxSwap$Companion;
+	public static final field Delete Lio/github/janmalch/ktmx/core/HxSwap;
+	public static final field InnerHTML Lio/github/janmalch/ktmx/core/HxSwap;
+	public static final field None Lio/github/janmalch/ktmx/core/HxSwap;
+	public static final field OuterHTML Lio/github/janmalch/ktmx/core/HxSwap;
+	public static final field TextContent Lio/github/janmalch/ktmx/core/HxSwap;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun getValue ()Ljava/lang/String;
+	public final fun invoke (Lkotlin/jvm/functions/Function1;)Ljava/lang/String;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/janmalch/ktmx/core/HxSwap;
+	public static fun values ()[Lio/github/janmalch/ktmx/core/HxSwap;
+}
+
+public final class io/github/janmalch/ktmx/core/HxSwap$Builder {
+	public final fun getIgnoreTitle ()Z
+	public final fun getScroll ()Lio/github/janmalch/ktmx/core/HxSwap$Scroll;
+	public final fun getSettle-FghU774 ()Lkotlin/time/Duration;
+	public final fun getShow ()Lio/github/janmalch/ktmx/core/HxSwap$Scroll;
+	public final fun getSwap-FghU774 ()Lkotlin/time/Duration;
+	public final fun getTransition ()Z
+	public final fun setIgnoreTitle (Z)V
+	public final fun setScroll (Lio/github/janmalch/ktmx/core/HxSwap$Scroll;)V
+	public final fun setSettle-BwNAW2A (Lkotlin/time/Duration;)V
+	public final fun setShow (Lio/github/janmalch/ktmx/core/HxSwap$Scroll;)V
+	public final fun setSwap-BwNAW2A (Lkotlin/time/Duration;)V
+	public final fun setTransition (Z)V
+}
+
+public final class io/github/janmalch/ktmx/core/HxSwap$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class io/github/janmalch/ktmx/core/HxSwap$Scroll : java/lang/Enum {
+	public static final field Bottom Lio/github/janmalch/ktmx/core/HxSwap$Scroll;
+	public static final field Top Lio/github/janmalch/ktmx/core/HxSwap$Scroll;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun getValue ()Ljava/lang/String;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/janmalch/ktmx/core/HxSwap$Scroll;
+	public static fun values ()[Lio/github/janmalch/ktmx/core/HxSwap$Scroll;
+}
+
+public final class io/github/janmalch/ktmx/core/HxSync : java/lang/Enum {
+	public static final field Abort Lio/github/janmalch/ktmx/core/HxSync;
+	public static final field Drop Lio/github/janmalch/ktmx/core/HxSync;
+	public static final field Queue Lio/github/janmalch/ktmx/core/HxSync;
+	public static final field QueueAll Lio/github/janmalch/ktmx/core/HxSync;
+	public static final field QueueFirst Lio/github/janmalch/ktmx/core/HxSync;
+	public static final field QueueLast Lio/github/janmalch/ktmx/core/HxSync;
+	public static final field Replace Lio/github/janmalch/ktmx/core/HxSync;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun getValue ()Ljava/lang/String;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/janmalch/ktmx/core/HxSync;
+	public static fun values ()[Lio/github/janmalch/ktmx/core/HxSync;
+}
+
+public final class io/github/janmalch/ktmx/core/HxTrigger {
+	public static final field INSTANCE Lio/github/janmalch/ktmx/core/HxTrigger;
+	public static final field load Ljava/lang/String;
+	public static final field revealed Ljava/lang/String;
+	public final fun every-VtjQ1oo (JLjava/lang/String;)Ljava/lang/String;
+	public static synthetic fun every-VtjQ1oo$default (Lio/github/janmalch/ktmx/core/HxTrigger;JLjava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+	public final fun intersect (Ljava/lang/String;Ljava/lang/Float;)Ljava/lang/String;
+	public static synthetic fun intersect$default (Lio/github/janmalch/ktmx/core/HxTrigger;Ljava/lang/String;Ljava/lang/Float;ILjava/lang/Object;)Ljava/lang/String;
+	public final fun invoke (Ljava/lang/String;Lkotlin/jvm/functions/Function1;)Ljava/lang/String;
+}
+
+public final class io/github/janmalch/ktmx/core/HxTrigger$Builder {
+	public final fun getChanged ()Z
+	public final fun getConsume ()Z
+	public final fun getCtrlKey ()Z
+	public final fun getDelay-FghU774 ()Lkotlin/time/Duration;
+	public final fun getFrom ()Ljava/lang/String;
+	public final fun getOnce ()Z
+	public final fun getQueue ()Lio/github/janmalch/ktmx/core/HxTrigger$Queue;
+	public final fun getShiftKey ()Z
+	public final fun getTarget ()Ljava/lang/String;
+	public final fun getThrottle-FghU774 ()Lkotlin/time/Duration;
+	public final fun setChanged (Z)V
+	public final fun setConsume (Z)V
+	public final fun setCtrlKey (Z)V
+	public final fun setDelay-BwNAW2A (Lkotlin/time/Duration;)V
+	public final fun setFrom (Ljava/lang/String;)V
+	public final fun setOnce (Z)V
+	public final fun setQueue (Lio/github/janmalch/ktmx/core/HxTrigger$Queue;)V
+	public final fun setShiftKey (Z)V
+	public final fun setTarget (Ljava/lang/String;)V
+	public final fun setThrottle-BwNAW2A (Lkotlin/time/Duration;)V
+}
+
+public final class io/github/janmalch/ktmx/core/HxTrigger$Queue : java/lang/Enum {
+	public static final field All Lio/github/janmalch/ktmx/core/HxTrigger$Queue;
+	public static final field First Lio/github/janmalch/ktmx/core/HxTrigger$Queue;
+	public static final field Last Lio/github/janmalch/ktmx/core/HxTrigger$Queue;
+	public static final field None Lio/github/janmalch/ktmx/core/HxTrigger$Queue;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun getValue ()Ljava/lang/String;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/janmalch/ktmx/core/HxTrigger$Queue;
+	public static fun values ()[Lio/github/janmalch/ktmx/core/HxTrigger$Queue;
+}
+
+public final class io/github/janmalch/ktmx/core/WsBinaryType : java/lang/Enum {
+	public static final field ArrayBuffer Lio/github/janmalch/ktmx/core/WsBinaryType;
+	public static final field Blob Lio/github/janmalch/ktmx/core/WsBinaryType;
+	public static final field Companion Lio/github/janmalch/ktmx/core/WsBinaryType$Companion;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun getValue ()Ljava/lang/String;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/janmalch/ktmx/core/WsBinaryType;
+	public static fun values ()[Lio/github/janmalch/ktmx/core/WsBinaryType;
+}
+
+public final class io/github/janmalch/ktmx/core/WsBinaryType$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+

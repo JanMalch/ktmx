@@ -1,0 +1,65 @@
+public final class io/github/janmalch/ktmx/kotlinx/html/AttributesKt {
+	public static final fun hxBoost (Lkotlinx/html/Tag;Z)V
+	public static synthetic fun hxBoost$default (Lkotlinx/html/Tag;ZILjava/lang/Object;)V
+	public static final fun hxConfirm (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxDelete (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxDisable (Lkotlinx/html/Tag;Ljava/lang/String;Z)V
+	public static final fun hxDisable (Lkotlinx/html/Tag;Z)V
+	public static synthetic fun hxDisable$default (Lkotlinx/html/Tag;Ljava/lang/String;ZILjava/lang/Object;)V
+	public static synthetic fun hxDisable$default (Lkotlinx/html/Tag;ZILjava/lang/Object;)V
+	public static final fun hxDisableElt (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxDisinherit (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxEncoding (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxExt (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxGet (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxHeaders (Lkotlinx/html/Tag;Ljava/lang/String;Ljava/lang/String;Lkotlinx/serialization/json/Json;)V
+	public static final fun hxHeaders (Lkotlinx/html/Tag;Ljava/util/Map;Lkotlinx/serialization/json/Json;)V
+	public static synthetic fun hxHeaders$default (Lkotlinx/html/Tag;Ljava/lang/String;Ljava/lang/String;Lkotlinx/serialization/json/Json;ILjava/lang/Object;)V
+	public static synthetic fun hxHeaders$default (Lkotlinx/html/Tag;Ljava/util/Map;Lkotlinx/serialization/json/Json;ILjava/lang/Object;)V
+	public static final fun hxHistory (Lkotlinx/html/Tag;Z)V
+	public static synthetic fun hxHistory$default (Lkotlinx/html/Tag;ZILjava/lang/Object;)V
+	public static final fun hxHistoryElt (Lkotlinx/html/Tag;Z)V
+	public static synthetic fun hxHistoryElt$default (Lkotlinx/html/Tag;ZILjava/lang/Object;)V
+	public static final fun hxInclude (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxIndicator (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxInherit (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxOn (Lkotlinx/html/Tag;Ljava/lang/String;Ljava/lang/String;)V
+	public static final fun hxParams (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxPatch (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxPost (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxPreserve (Lkotlinx/html/Tag;Z)V
+	public static synthetic fun hxPreserve$default (Lkotlinx/html/Tag;ZILjava/lang/Object;)V
+	public static final fun hxPrompt (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxPushUrl (Lkotlinx/html/Tag;Z)V
+	public static synthetic fun hxPushUrl$default (Lkotlinx/html/Tag;ZILjava/lang/Object;)V
+	public static final fun hxPut (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxReplaceUrl (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxReplaceUrl (Lkotlinx/html/Tag;Z)V
+	public static final fun hxRequest (Lkotlinx/html/Tag;Lio/github/janmalch/ktmx/core/HtmxRequest;Lkotlinx/serialization/json/Json;)V
+	public static synthetic fun hxRequest$default (Lkotlinx/html/Tag;Lio/github/janmalch/ktmx/core/HtmxRequest;Lkotlinx/serialization/json/Json;ILjava/lang/Object;)V
+	public static final fun hxSelect (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxSelectOob (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxSwap (Lkotlinx/html/Tag;Lio/github/janmalch/ktmx/core/HxSwap;Lkotlin/jvm/functions/Function1;)V
+	public static synthetic fun hxSwap$default (Lkotlinx/html/Tag;Lio/github/janmalch/ktmx/core/HxSwap;Lkotlin/jvm/functions/Function1;ILjava/lang/Object;)V
+	public static final fun hxSwapOob (Lkotlinx/html/Tag;Z)V
+	public static synthetic fun hxSwapOob$default (Lkotlinx/html/Tag;ZILjava/lang/Object;)V
+	public static final fun hxSync (Lkotlinx/html/Tag;Ljava/lang/String;Lio/github/janmalch/ktmx/core/HxSync;)V
+	public static synthetic fun hxSync$default (Lkotlinx/html/Tag;Ljava/lang/String;Lio/github/janmalch/ktmx/core/HxSync;ILjava/lang/Object;)V
+	public static final fun hxTarget (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxTrigger (Lkotlinx/html/Tag;Ljava/lang/Iterable;)V
+	public static final fun hxTrigger (Lkotlinx/html/Tag;Ljava/lang/String;)V
+	public static final fun hxTrigger (Lkotlinx/html/Tag;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
+	public static final fun hxTrigger (Lkotlinx/html/Tag;[Ljava/lang/String;)V
+	public static final fun hxValidate (Lkotlinx/html/Tag;Z)V
+	public static synthetic fun hxValidate$default (Lkotlinx/html/Tag;ZILjava/lang/Object;)V
+	public static final fun hxVals (Lkotlinx/html/Tag;Ljava/lang/String;Ljava/lang/String;Lkotlinx/serialization/json/Json;)V
+	public static final fun hxVals (Lkotlinx/html/Tag;Ljava/util/Map;Lkotlinx/serialization/json/Json;)V
+	public static synthetic fun hxVals$default (Lkotlinx/html/Tag;Ljava/lang/String;Ljava/lang/String;Lkotlinx/serialization/json/Json;ILjava/lang/Object;)V
+	public static synthetic fun hxVals$default (Lkotlinx/html/Tag;Ljava/util/Map;Lkotlinx/serialization/json/Json;ILjava/lang/Object;)V
+}
+
+public final class io/github/janmalch/ktmx/kotlinx/html/ConfigKt {
+	public static final fun htmxConfig (Lkotlinx/html/HEAD;Lio/github/janmalch/ktmx/core/HtmxConfig;Lkotlinx/serialization/json/Json;)V
+	public static synthetic fun htmxConfig$default (Lkotlinx/html/HEAD;Lio/github/janmalch/ktmx/core/HtmxConfig;Lkotlinx/serialization/json/Json;ILjava/lang/Object;)V
+}
+
